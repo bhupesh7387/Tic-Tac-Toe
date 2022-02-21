@@ -355,4 +355,24 @@ body {
     width: 30vw !important;
   }
 }
+
+.credit {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  #heading {
+    font-size: 0.75rem;
+  }
+  .gameContainer .gameInfo .info {
+    font-size: 1.5rem;
+  }
+  .credit {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
